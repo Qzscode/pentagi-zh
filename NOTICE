@@ -1,0 +1,46 @@
+# 归属与免责声明
+
+## 上游项目
+
+- **PentAGI** —— https://github.com/vxcontrol/pentagi
+- 版权：Copyright (c) 2025 PentAGI Development Team
+- 许可证：MIT License（见 `LICENSE`）
+
+`zh-dict.js` 与 `dict/` 目录中的**英文原文**来自 PentAGI 的 Web 界面文案。
+依据 MIT 许可证，本仓库在保留版权与许可声明的前提下复制并翻译了这些文案。
+中文译文为本仓库贡献者原创。
+
+`zh-cn.js`（运行时翻译器）、`install.sh` / `uninstall.sh`（安装脚本）与
+`tools/` 下的工具为本仓库原创，同样以 MIT 许可证发布。
+
+## 非官方声明
+
+本仓库是**社区作品**，与 PentAGI Development Team **无隶属关系，也未获其背书**。
+
+PentAGI 的 EULA 第 89 条明确说明：
+
+> 任何 fork、派生作品或修改版本均未获得 PentAGI Development Team 的背书，
+> 该团队对此类版本不承担任何责任。
+
+因此：
+
+- 使用本补丁产生的一切后果由使用者自行承担。
+- 请勿将本补丁描述为 PentAGI 官方功能，也不要在上游仓库中以此提出 issue。
+- 本补丁只修改界面文案的呈现，不修改 PentAGI 的后端、数据库或镜像内容。
+
+## 合法使用
+
+PentAGI 是渗透测试工具。其 EULA 规定仅可用于**合法的渗透测试与研究目的**，
+禁止用于任何违法活动，包括未授权的网络访问。
+
+本补丁仅涉及界面语言，不改变该限制。**请仅对你拥有明确授权的目标使用 PentAGI。**
+
+## 隐私说明
+
+本仓库不包含任何个人数据。所有文件均可公开审查：
+
+- 无密钥、令牌、密码、邮箱地址或 IP 地址
+- 无本机路径、用户名或主机名
+- 安装脚本只包含通用的容器路径与 pentAGI 的默认本地地址 `https://localhost:8443/`
+
+`tools/audit.sh` 就是用于上述核查的脚本，任何人都可以重跑以复核。

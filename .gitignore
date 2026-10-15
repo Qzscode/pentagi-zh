@@ -1,0 +1,15 @@
+# 安装时生成的产物, 不入库
+/zh-i18n/
+index.html
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# 本地测试残留
+chrome-profile/
+chrome-cdp/
+*.log
